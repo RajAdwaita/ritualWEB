@@ -1,7 +1,7 @@
 import React from 'react';
-import minis from '../images/minis.png'
+// import minis from '../images/minis.png'
 
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 
 const Card = (props) => {
     return (
@@ -11,7 +11,7 @@ const Card = (props) => {
                 <div className="card" >
                     <img src={props.imgsrc} className="card-img-top" alt={props.imgsrc} />
                     <div className="card-body">
-                        <h5 className="card-title font-weight-bold">{props.title}</h5>
+                        <p className="card-title ">{props.title}</p>
 
                     </div>
                 </div>

@@ -3,19 +3,19 @@ import web from '../images/minis.png'
 const Sdata = [
     {
         imgsrc: web,
-        title: "App Dev"
+        title: "Shop Multivitamin"
     },
     {
         imgsrc: web,
-        title: "Web Dev"
+        title: "Shop Protein"
     },
     {
         imgsrc: web,
-        title: "iOS Dev"
+        title: "Shop Pregnancy"
     },
     {
         imgsrc: web,
-        title: "ML"
+        title: "Shop Bundles"
     }
 ]
 

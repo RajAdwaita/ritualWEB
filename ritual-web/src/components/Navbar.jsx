@@ -7,12 +7,12 @@ const Navbar = () => {
     return (
         <>
             <div className="container-fluid nav_bg">
-                <div className="row">
+                <div className="row navbarfix">
                     <div className="col-10 mx-auto">
 
 
 
-                        <nav className="navbar navbar-expand-md  bg-light" >
+                        <nav className="navbar navbar-expand-md " >
                             <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
                                 <ul className="navbar-nav mr-auto">
                                     <li className="nav-item active">

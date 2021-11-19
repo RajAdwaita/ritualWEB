@@ -1,3 +1,10 @@
+.html {
+    margin: 0;
+    /* margin-top: -510px; */
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .bolder {
     font-weight: 700;
     text-decoration: none;
@@ -8,8 +15,30 @@
 .side-nav {
     color: #142b6f;
     margin-right: 35px;
-    /* display: inline-block; */
+    font-weight: 500;
+    display: inline-block;
 
+}
+
+.navbarfix {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+
+}
+
+.navbarfix a {
+    float: left;
+    display: block;
+    /* color: #f2f2f2; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .nav-icon {
@@ -33,15 +62,20 @@
 
 .home {
     margin-bottom: 50px;
+    margin-top: 80px;
+
 }
 
 .card-body {
-    /* padding: 1px; */
+    padding: 1.4rem;
     /* margin-top: 0px; */
 }
 
 .card {
     width: 16vw;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 .card-div {
@@ -63,7 +97,20 @@ img {
 
 .div1 {
     margin-top: 30px;
-    margin-left: 20s+0px;
+    margin-left: 20px;
+    /* cursor: progress; */
+}
+
+/* .innerIcons {
+    margin-top: 10px;
+    margin-left: 100px;
+} */
+
+.s2 {
+    position: relative;
+    margin-left: 300px;
+    text-align: center;
+    align-items: center;
 }
 
 .h21 {
@@ -76,15 +123,21 @@ img {
 
 .innerIcons {
     margin-top: 50px;
+    margin-left: 90px;
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     /* margin: 5px 5px; */
     margin-right: 50px;
     font-size: 1rem;
     max-width: 2px;
     color: #142b6f;
     text-decoration: none;
+    align-items: center;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
 
 }
 
@@ -92,13 +145,94 @@ img {
     padding: 0px 20px;
     color: #142b6f;
 
-    margin-right: 10px;
+    margin-right: 20px;
+    font-size: 1.1rem;
 
     text-decoration: none;
+    font-weight: 550;
 }
 
 .iconText {
     color: #142b6f;
     text-decoration: none;
+    /* font-size: .9; */
 
+}
+
+.card img {
+    /* height: 20vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    bottom: 0;
+}
+
+.card img:hover {
+    /* opacity: 0.5; */
+    transform: scale(1.1);
+    box-sizing: border-box;
+    transition: transform .2s ease-in-out 0s !important;
+
+
+}
+
+.card-title {
+    font-weight: 500;
+    padding: 0px;
+    /* margin: 0px; */
+    /* margin-top: -10px; */
+    /* margin-bottom: -10px; */
+}
+
+.row-caps {
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 5px;
+}
+
+.column-caps {
+    flex: 50%;
+
+}
+
+
+.img-caps {
+    height: 80vh;
+    width: 35vw;
+}
+
+.bl3 {
+    max-width: 500px;
+    text-align: left;
+
+
+}
+
+.bl3 h2 {
+    margin-top: 11rem;
+    font-size: 2.9rem;
+    font-weight: 600;
+}
+
+.bl3 p {
+    margin-top: 35px;
+    font-size: 1rem;
+}
+
+.bl4 p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    /* margin-top: 35px;
+    font-size: 1rem;
+    font-size: 1.1rem;
+    text-decoration: underline; */
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content
 }
