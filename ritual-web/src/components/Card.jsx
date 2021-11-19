@@ -9,7 +9,7 @@ const Card = (props) => {
 
             <div className="col-md-3 col-10 mx-auto card-div">
                 <div className="card" >
-                    <img src={props.imgsrc} className="card-img-top" alt={props.imgsrc} />
+                    <img src={props.imgsrc} className="card-img-top" alt="" onMouseOver={props.img2} onMouseOut={props.imgsrc} />
                     <div className="card-body">
                         <p className="card-title ">{props.title}</p>
 

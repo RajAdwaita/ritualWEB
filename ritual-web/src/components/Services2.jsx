@@ -1,9 +1,8 @@
-import React from 'react';
-// import web from '../images/minis.png'
-import Sdata from './Sdata';
-import Card from './Card';
+import React from 'react'
+import Sdata2 from './Sdata2'
+import Card2 from './Card2'
 
-const Service = () => {
+const Services2 = () => {
     return (
         <>
             <div className="my-5">
@@ -14,8 +13,8 @@ const Service = () => {
                         <div className="row gy-4">
                             {/* <Card /> */}
                             {
-                                Sdata.map((val, ind) => {
-                                    return <Card key={ind} imgsrc={val.imgsrc} title={val.title} img2={val.img2} />
+                                Sdata2.map((val, ind) => {
+                                    return <Card2 key={ind} imgsrc={val.imgsrc} title={val.title} desc={val.desc} />
                                 })
                             }
 
@@ -25,8 +24,9 @@ const Service = () => {
                     </div>
                 </div>
             </div>
+
         </>
     )
 }
 
-export default Service
+export default Services2

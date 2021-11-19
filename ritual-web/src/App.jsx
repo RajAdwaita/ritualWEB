@@ -7,6 +7,9 @@ import Home from './components/Home';
 import Services from './components/Services';
 import CardTextSection from './components/CardTextSection';
 import Capsule from './components/Capsule';
+import Map from './components/Map';
+import Featured from './components/Featured';
+import Services2 from './components/Services2';
 // import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
       <Services />
       <CardTextSection />
       <Capsule />
+      <Map />
+      <Featured />
+      <Services2 />
 
 
 

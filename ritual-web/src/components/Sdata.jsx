@@ -1,21 +1,29 @@
 import web from '../images/minis.png'
+import swap from '../images/maps.png'
 
 const Sdata = [
     {
         imgsrc: web,
-        title: "Shop Multivitamin"
+        title: "Shop Multivitamin",
+        img2: swap
     },
     {
         imgsrc: web,
-        title: "Shop Protein"
+        title: "Shop Protein",
+        img2: swap
+
     },
     {
         imgsrc: web,
-        title: "Shop Pregnancy"
+        title: "Shop Pregnancy",
+        img2: swap
+
     },
     {
         imgsrc: web,
-        title: "Shop Bundles"
+        title: "Shop Bundles",
+        img2: swap
+
     }
 ]
 
