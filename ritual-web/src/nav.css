@@ -269,3 +269,22 @@ img {
 .row-maps {
     margin-bottom: 25px;
 }
+
+.bbtn {
+    position: absolute;
+    top: 476px;
+    left: 678px;
+    padding: 0.9rem 3.0rem;
+    border-radius: 1.7rem;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: #142b6f;
+    color: #fff;
+    border: none;
+}
+
+.bbtn:hover {
+    background-color: #fff;
+    color: #142b6f;
+    border: none;
+}
